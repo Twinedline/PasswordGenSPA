@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\anotherpage.html",
+      "PackagePath": "staticwebassets\\anotherpage.html"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\balls.html",
+      "PackagePath": "staticwebassets\\balls.html"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\generator.html",
+      "PackagePath": "staticwebassets\\generator.html"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\img\\lock_logo.png",
+      "PackagePath": "staticwebassets\\img\\lock_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\indexPanel.html",
+      "PackagePath": "staticwebassets\\indexPanel.html"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\spa.js",
+      "PackagePath": "staticwebassets\\js\\spa.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PasswordManager.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PasswordManager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PasswordManager.props",
+      "PackagePath": "build\\PasswordManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PasswordManager.props",
+      "PackagePath": "buildMultiTargeting\\PasswordManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PasswordManager.props",
+      "PackagePath": "buildTransitive\\PasswordManager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

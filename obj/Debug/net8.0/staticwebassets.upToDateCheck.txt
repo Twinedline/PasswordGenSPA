@@ -1,0 +1,8 @@
+wwwroot\anotherpage.html
+wwwroot\balls.html
+wwwroot\css\style.css
+wwwroot\generator.html
+wwwroot\img\lock_logo.png
+wwwroot\index.html
+wwwroot\indexPanel.html
+wwwroot\js\spa.js
