@@ -21,16 +21,24 @@
       "PackagePath": "staticwebassets\\img\\lock_logo.png"
     },
     {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index-panel.html",
+      "PackagePath": "staticwebassets\\index-panel.html"
+    },
+    {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\indexPanel.html",
-      "PackagePath": "staticwebassets\\indexPanel.html"
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
-      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\spa.js",
-      "PackagePath": "staticwebassets\\js\\spa.js"
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\signup.html",
+      "PackagePath": "staticwebassets\\signup.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PasswordManager.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

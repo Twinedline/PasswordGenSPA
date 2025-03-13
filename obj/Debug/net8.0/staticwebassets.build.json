@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1roQ/+3PisMZx9DwT2hac63Bydu5wVnpay6ahYpk34A=",
+  "Hash": "LRBRa07P6Uvgmg/7CX0mbTVoEazIbZ6zPu1Gixl5vzM=",
   "Source": "PasswordManager",
   "BasePath": "_content/PasswordManager",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0n6sjb0yj7",
-      "Integrity": "nI8z9XROo6oV9v4zvCNy9GS4yCNMHarcUf3ZkHlcmRE=",
+      "Fingerprint": "7ly1mp0odi",
+      "Integrity": "pcBVOsQBcdSOsXILy0BvPiHboT9ir1E5C+mDRx1Ooe8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -136,19 +136,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c6ipci6on6",
-      "Integrity": "RJz02OxdJ0IBdohkhiuNTYcuSpBHmEwsgBiafFQJN48=",
+      "Fingerprint": "0jlag8d2vr",
+      "Integrity": "hPTNpIBuR+aj4Qs8a8QXFYlWCZXmesS0qXsf78FdFG0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\indexPanel.html",
+      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index-panel.html",
       "SourceId": "PasswordManager",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\",
       "BasePath": "_content/PasswordManager",
-      "RelativePath": "indexPanel#[.{fingerprint}]?.html",
+      "RelativePath": "index-panel#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +157,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "20ohio9f4j",
-      "Integrity": "PmqZv6SaHQSQQ15em11RukjRjTJyBrG5qcq9skmfxdc=",
+      "Fingerprint": "uu31az9ggw",
+      "Integrity": "OvDu1e1BO+G7q2jQ6VtdWR/qYZ/lPq5wAQ8HxYz+Ozk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\indexPanel.html"
+      "OriginalItemSpec": "wwwroot\\index-panel.html"
     },
     {
-      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\spa.js",
+      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\index.js",
       "SourceId": "PasswordManager",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\",
       "BasePath": "_content/PasswordManager",
-      "RelativePath": "js/spa#[.{fingerprint}]?.js",
+      "RelativePath": "js/index#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,11 +178,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "oc1qt6qmcq",
-      "Integrity": "qEEBo2vTjdK3IuZALyQA8rxKaImGpDwZHXAi1V7WU6E=",
+      "Fingerprint": "s9fnb6v1u7",
+      "Integrity": "8F/KFZ63QASPVz5jYiuCgEKtifLkluuyEMjXerI3pjY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\spa.js"
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
+    },
+    {
+      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\login.html",
+      "SourceId": "PasswordManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\",
+      "BasePath": "_content/PasswordManager",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6rgsob2ae",
+      "Integrity": "mxnNKUJIjthOfGnGnWqGwDX2JO34TItDXQPQr4ymY1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\signup.html",
+      "SourceId": "PasswordManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\",
+      "BasePath": "_content/PasswordManager",
+      "RelativePath": "signup#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y6b3yc1xai",
+      "Integrity": "ar3QxAkpXNBxoFtB2owyPr4v0FRhA5bhoJHBuTWF8mo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signup.html"
     }
   ],
   "Endpoints": [
@@ -209,7 +251,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 17:02:14 GMT"
+          "Value": "Thu, 13 Mar 2025 14:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -254,7 +296,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 17:02:14 GMT"
+          "Value": "Thu, 13 Mar 2025 14:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -291,7 +333,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 16:41:27 GMT"
+          "Value": "Thu, 13 Mar 2025 14:49:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -328,7 +370,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 16:41:27 GMT"
+          "Value": "Thu, 13 Mar 2025 14:49:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -351,7 +393,7 @@
       ]
     },
     {
-      "Route": "css/style.0n6sjb0yj7.css",
+      "Route": "css/style.7ly1mp0odi.css",
       "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -361,7 +403,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "519"
+          "Value": "439"
         },
         {
           "Name": "Content-Type",
@@ -369,11 +411,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nI8z9XROo6oV9v4zvCNy9GS4yCNMHarcUf3ZkHlcmRE=\""
+          "Value": "\"pcBVOsQBcdSOsXILy0BvPiHboT9ir1E5C+mDRx1Ooe8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 15:34:55 GMT"
+          "Value": "Thu, 13 Mar 2025 17:08:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -383,7 +425,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0n6sjb0yj7"
+          "Value": "7ly1mp0odi"
         },
         {
           "Name": "label",
@@ -391,7 +433,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nI8z9XROo6oV9v4zvCNy9GS4yCNMHarcUf3ZkHlcmRE="
+          "Value": "sha256-pcBVOsQBcdSOsXILy0BvPiHboT9ir1E5C+mDRx1Ooe8="
         }
       ]
     },
@@ -406,7 +448,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "519"
+          "Value": "439"
         },
         {
           "Name": "Content-Type",
@@ -414,11 +456,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nI8z9XROo6oV9v4zvCNy9GS4yCNMHarcUf3ZkHlcmRE=\""
+          "Value": "\"pcBVOsQBcdSOsXILy0BvPiHboT9ir1E5C+mDRx1Ooe8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 15:34:55 GMT"
+          "Value": "Thu, 13 Mar 2025 17:08:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -428,7 +470,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nI8z9XROo6oV9v4zvCNy9GS4yCNMHarcUf3ZkHlcmRE="
+          "Value": "sha256-pcBVOsQBcdSOsXILy0BvPiHboT9ir1E5C+mDRx1Ooe8="
         }
       ]
     },
@@ -597,7 +639,7 @@
       ]
     },
     {
-      "Route": "index.c6ipci6on6.html",
+      "Route": "index.0jlag8d2vr.html",
       "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -607,7 +649,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5358"
+          "Value": "4514"
         },
         {
           "Name": "Content-Type",
@@ -615,11 +657,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RJz02OxdJ0IBdohkhiuNTYcuSpBHmEwsgBiafFQJN48=\""
+          "Value": "\"hPTNpIBuR+aj4Qs8a8QXFYlWCZXmesS0qXsf78FdFG0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 11:20:51 GMT"
+          "Value": "Thu, 13 Mar 2025 19:01:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -629,7 +671,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c6ipci6on6"
+          "Value": "0jlag8d2vr"
         },
         {
           "Name": "label",
@@ -637,7 +679,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RJz02OxdJ0IBdohkhiuNTYcuSpBHmEwsgBiafFQJN48="
+          "Value": "sha256-hPTNpIBuR+aj4Qs8a8QXFYlWCZXmesS0qXsf78FdFG0="
         }
       ]
     },
@@ -652,7 +694,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5358"
+          "Value": "4514"
         },
         {
           "Name": "Content-Type",
@@ -660,11 +702,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RJz02OxdJ0IBdohkhiuNTYcuSpBHmEwsgBiafFQJN48=\""
+          "Value": "\"hPTNpIBuR+aj4Qs8a8QXFYlWCZXmesS0qXsf78FdFG0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 11:20:51 GMT"
+          "Value": "Thu, 13 Mar 2025 19:01:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -674,13 +716,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RJz02OxdJ0IBdohkhiuNTYcuSpBHmEwsgBiafFQJN48="
+          "Value": "sha256-hPTNpIBuR+aj4Qs8a8QXFYlWCZXmesS0qXsf78FdFG0="
         }
       ]
     },
     {
-      "Route": "indexPanel.20ohio9f4j.html",
-      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\indexPanel.html",
+      "Route": "index-panel.html",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index-panel.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -689,7 +731,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "726"
+          "Value": "64"
         },
         {
           "Name": "Content-Type",
@@ -697,11 +739,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PmqZv6SaHQSQQ15em11RukjRjTJyBrG5qcq9skmfxdc=\""
+          "Value": "\"OvDu1e1BO+G7q2jQ6VtdWR/qYZ/lPq5wAQ8HxYz+Ozk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 11:18:58 GMT"
+          "Value": "Thu, 13 Mar 2025 18:55:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OvDu1e1BO+G7q2jQ6VtdWR/qYZ/lPq5wAQ8HxYz+Ozk="
+        }
+      ]
+    },
+    {
+      "Route": "index-panel.uu31az9ggw.html",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\index-panel.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OvDu1e1BO+G7q2jQ6VtdWR/qYZ/lPq5wAQ8HxYz+Ozk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 18:55:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -711,21 +790,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "20ohio9f4j"
+          "Value": "uu31az9ggw"
         },
         {
           "Name": "label",
-          "Value": "indexPanel.html"
+          "Value": "index-panel.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PmqZv6SaHQSQQ15em11RukjRjTJyBrG5qcq9skmfxdc="
+          "Value": "sha256-OvDu1e1BO+G7q2jQ6VtdWR/qYZ/lPq5wAQ8HxYz+Ozk="
         }
       ]
     },
     {
-      "Route": "indexPanel.html",
-      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\indexPanel.html",
+      "Route": "js/index.js",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\index.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -734,19 +813,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "726"
+          "Value": "1543"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"PmqZv6SaHQSQQ15em11RukjRjTJyBrG5qcq9skmfxdc=\""
+          "Value": "\"8F/KFZ63QASPVz5jYiuCgEKtifLkluuyEMjXerI3pjY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 11:18:58 GMT"
+          "Value": "Thu, 13 Mar 2025 19:13:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -756,13 +835,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PmqZv6SaHQSQQ15em11RukjRjTJyBrG5qcq9skmfxdc="
+          "Value": "sha256-8F/KFZ63QASPVz5jYiuCgEKtifLkluuyEMjXerI3pjY="
         }
       ]
     },
     {
-      "Route": "js/spa.js",
-      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\spa.js",
+      "Route": "js/index.s9fnb6v1u7.js",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\index.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -771,7 +850,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "799"
+          "Value": "1543"
         },
         {
           "Name": "Content-Type",
@@ -779,48 +858,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qEEBo2vTjdK3IuZALyQA8rxKaImGpDwZHXAi1V7WU6E=\""
+          "Value": "\"8F/KFZ63QASPVz5jYiuCgEKtifLkluuyEMjXerI3pjY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 18:55:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qEEBo2vTjdK3IuZALyQA8rxKaImGpDwZHXAi1V7WU6E="
-        }
-      ]
-    },
-    {
-      "Route": "js/spa.oc1qt6qmcq.js",
-      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\spa.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "799"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qEEBo2vTjdK3IuZALyQA8rxKaImGpDwZHXAi1V7WU6E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 18:55:47 GMT"
+          "Value": "Thu, 13 Mar 2025 19:13:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -830,15 +872,179 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oc1qt6qmcq"
+          "Value": "s9fnb6v1u7"
         },
         {
           "Name": "label",
-          "Value": "js/spa.js"
+          "Value": "js/index.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qEEBo2vTjdK3IuZALyQA8rxKaImGpDwZHXAi1V7WU6E="
+          "Value": "sha256-8F/KFZ63QASPVz5jYiuCgEKtifLkluuyEMjXerI3pjY="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mxnNKUJIjthOfGnGnWqGwDX2JO34TItDXQPQr4ymY1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 19:25:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mxnNKUJIjthOfGnGnWqGwDX2JO34TItDXQPQr4ymY1k="
+        }
+      ]
+    },
+    {
+      "Route": "login.j6rgsob2ae.html",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mxnNKUJIjthOfGnGnWqGwDX2JO34TItDXQPQr4ymY1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 19:25:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6rgsob2ae"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mxnNKUJIjthOfGnGnWqGwDX2JO34TItDXQPQr4ymY1k="
+        }
+      ]
+    },
+    {
+      "Route": "signup.html",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\signup.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ar3QxAkpXNBxoFtB2owyPr4v0FRhA5bhoJHBuTWF8mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 19:25:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ar3QxAkpXNBxoFtB2owyPr4v0FRhA5bhoJHBuTWF8mo="
+        }
+      ]
+    },
+    {
+      "Route": "signup.y6b3yc1xai.html",
+      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\signup.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ar3QxAkpXNBxoFtB2owyPr4v0FRhA5bhoJHBuTWF8mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 19:25:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y6b3yc1xai"
+        },
+        {
+          "Name": "label",
+          "Value": "signup.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ar3QxAkpXNBxoFtB2owyPr4v0FRhA5bhoJHBuTWF8mo="
         }
       ]
     }

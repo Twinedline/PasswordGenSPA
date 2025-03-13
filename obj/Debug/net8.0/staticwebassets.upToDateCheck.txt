@@ -4,5 +4,7 @@ wwwroot\css\style.css
 wwwroot\generator.html
 wwwroot\img\lock_logo.png
 wwwroot\index.html
-wwwroot\indexPanel.html
-wwwroot\js\spa.js
+wwwroot\index-panel.html
+wwwroot\js\index.js
+wwwroot\login.html
+wwwroot\signup.html
