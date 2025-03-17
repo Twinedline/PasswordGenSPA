@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "PasswordManager.Controllers.SignupController",
+    "Method": "PostSignup",
+    "RelativePath": "api/Signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PasswordManager.Models.user",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

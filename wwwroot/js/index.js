@@ -33,17 +33,43 @@ $(document).ready(function () {
 });
 
 
-document.getElementById('login-form').addEventListener('submit', function (event) {
-
+$(document).on('submit', '#signup-form', function (event) {
     event.preventDefault();
 
-    const email = document.getElementById('inputemail').value;
-    const password = document.getElementById('inputpassword').value;
+   
+    const email = document.getElementById('signup-email').value;
+    const password = document.getElementById('signup-password').value;
 
+   
+    localStorage.setItem('email', email);
+    localStorage.setItem('password', password);
+
+    
     const formData = {
         email: email,
         password: password
     };
 
+   
+    fetch('/api/signup', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+    })
+        .then(response => response.json()) 
+        .then(data => {
+            
+            if (data.message) {
+                alert(data.message);
+            }
+        })
+        .catch(error => {
+            
+            console.error('Error:', error);
+            alert('There was an error saving the data.');
+        });
 });
+
 
