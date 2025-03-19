@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\generator.html",
-      "PackagePath": "staticwebassets\\generator.html"
-    },
-    {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\img\\lock_logo.png",
       "PackagePath": "staticwebassets\\img\\lock_logo.png"
     },
@@ -33,8 +29,8 @@
       "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
-      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\login.html",
-      "PackagePath": "staticwebassets\\login.html"
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\password-check.html",
+      "PackagePath": "staticwebassets\\password-check.html"
     },
     {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\signup.html",

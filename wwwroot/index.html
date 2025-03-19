@@ -26,9 +26,9 @@
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
         </a>
-        <a id="generator-link" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <a id="password-check-link" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
             <i class="fa fa-user w3-xxlarge"></i>
-            <p>GENERATOR</p>
+            <p>STRENGTH CHECK</p>
         </a>
         <a id="signup-link" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
             <i class="fa fa-eye w3-xxlarge"></i>
@@ -43,8 +43,8 @@
     <!-- Navbar on small screens (Hidden on medium and large screens) -->
     <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
         <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a id="indexPanel-link" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-            <a id="generator-link" class="w3-bar-item w3-button" style="width:25% !important">GENERATOR</a>
+            <a id="index-panel-link" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a id="password-check-link" class="w3-bar-item w3-button" style="width:25% !important">GENERATOR</a>
             <a id="signup-link" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
             <a id="login-link" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
         </div>
@@ -59,8 +59,28 @@
         </header>
 
         <div id="page-content-wrapper" class="w3-center" style="max-width: 400px; margin: 0 auto;">
-            <p>Hello there! what can I do for you?</p>
+            <!-- login form -->
+            <h1 style="margin-bottom: 30px;">log-in</h1>
+
+            <form id="login-form">
+                <div>
+                    <label for="login-email" class="form-label">Email address:</label>
+                    <input type="email" name="email" class="form-control" placeholder="Email:" id="login-email">
+                </div>
+                <div>
+                    <label for="login-password" class="form-label" style="margin-top: 20px;">Password:</label>
+                    <input type="password" name="password" class="form-control" placeholder="Password:" id="login-password">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success" style="margin-top: 25px;">Submit</button>
+                </div>
+                <div style="margin-top: 20px;">
+                    <p>Don't have an account? <a id="signup-link" class="w3-button">Sign up</a></p>
+                </div>
+            </form>
         </div>
+
+
     </div>
 
     <!-- Footer -->
@@ -71,11 +91,11 @@
         <i class="fa fa-pinterest-p w3-hover-opacity"></i>
         <i class="fa fa-twitter w3-hover-opacity"></i>
         <i class="fa fa-linkedin w3-hover-opacity"></i>
-        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
         <!-- End footer -->
     </footer>
 
     <!-- END PAGE CONTENT -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="js/index.js?v=1.0"></script>
 

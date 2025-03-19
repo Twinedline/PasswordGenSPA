@@ -1,2 +1,1 @@
-C:\Users\twine\source\repos\PasswordManager\PasswordManager\wwwroot\controllers\signupcontroller.cs
-C:\Users\twine\source\repos\PasswordManager\PasswordManager\wwwroot\models\user.cs
+C:\Users\twine\source\repos\PasswordManager\PasswordManager\wwwroot\generator.html

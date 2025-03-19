@@ -1,3 +1,21 @@
-﻿<div>
-    <p>Hello there! what can I do for you?</p>
+﻿<div id="login">
+    <!-- login form -->
+    <h1 style="margin-bottom: 30px;">log-in</h1>
+
+    <form id="login-form">
+        <div>
+            <label for="login-email" class="form-label">Email address:</label>
+            <input type="email" name="email" class="form-control" placeholder="Email:" id="login-email">
+        </div>
+        <div>
+            <label for="login-password" class="form-label" style="margin-top: 20px;">Password:</label>
+            <input type="password" name="password" class="form-control" placeholder="Password:" id="login-password">
+        </div>
+        <div>
+            <button type="submit" class="btn btn-success" style="margin-top: 25px;">Submit</button>
+        </div>
+        <div style="margin-top: 20px;">
+            <p>Don't have an account? <a id="signup-link" class="w3-button">Sign up</a></p>
+        </div>
+    </form>
 </div>
