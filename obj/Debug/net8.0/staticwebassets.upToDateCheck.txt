@@ -1,9 +1,10 @@
-wwwroot\anotherpage.html
+wwwroot\another-page.html
 wwwroot\balls.html
 wwwroot\css\style.css
 wwwroot\img\lock_logo.png
 wwwroot\index.html
 wwwroot\index-panel.html
 wwwroot\js\index.js
+wwwroot\login.html
 wwwroot\password-check.html
 wwwroot\signup.html

@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\anotherpage.html",
-      "PackagePath": "staticwebassets\\anotherpage.html"
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\another-page.html",
+      "PackagePath": "staticwebassets\\another-page.html"
     },
     {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\balls.html",
@@ -27,6 +27,10 @@
     {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
     },
     {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\password-check.html",

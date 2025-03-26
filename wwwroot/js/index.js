@@ -11,14 +11,19 @@ $(document).ready(function () {
         $('#page-content-wrapper').load('balls.html')
     });
 
-    $('#anotherpage-link').click(function () {
+    $('#index-panel-link').click(function () {
         var timestamp = new Date().getTime();
-        $('#page-content-wrapper').load('anotherpage.html')
+        $('#page-content-wrapper').load('index-panel.html')
     });
 
-    $(document).on('click', '#indexPanel-link', function () {
+    $('#another-page-link').click(function () {
         var timestamp = new Date().getTime();
-        $('#page-content-wrapper').load('index-panel.html?' + timestamp);
+        $('#page-content-wrapper').load('another-page.html')
+    });
+
+    $(document).on('click', '#login-link', function () {
+        var timestamp = new Date().getTime();
+        $('#page-content-wrapper').load('login.html?' + timestamp);
     });
 
     $(document).on('click', '#signup-link', function () {
@@ -35,44 +40,60 @@ $(document).ready(function () {
     $(document).on('submit', '#signup-form', function (event) {
         event.preventDefault();
 
+        if (typeof CryptoJS === 'undefined') {
+            console.error('CryptoJS is not loaded');
+            return;
+        }
 
         const email = document.getElementById('signup-email').value;
         const password = document.getElementById('signup-password').value;
 
+        const secret_key = "thisisfarlesssecurethanarandomkeybutmorememorable";
+        const encrypted_password = CryptoJS.AES.encrypt(password, secret_key).toString();
+       
+        const user_key = "user_" + email.split('@')[0];
 
-        localStorage.setItem('email', email);
-        localStorage.setItem('password', password);
+        localStorage.setItem(user_key, JSON.stringify({ email: email, password: encrypted_password }));
 
-
-        const formData = {
-            email: email,
-            password: password
-        };
-
-
-        fetch('/api/signup', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-        })
-            .then(response => response.json())
-            .then(data => {
-
-                if (data.message) {
-                    alert(data.message);
-                }
-            })
-            .catch(error => {
-
-                console.error('Error:', error);
-                alert('There was an error saving the data.');
-            });
+        alert("Form submitted and data saved for user: " + email.split('@')[0]);
 
     });
 });
 
+$(document).ready(function () {
+    $(document).on('submit', '#login-form', function (event) {
+        event.preventDefault();
+
+        const email = document.getElementById('login-email').value;
+        const password = document.getElementById('login-password').value;
+
+        const user_key = "user_" + email.split('@')[0];
+
+        const stored_user = localStorage.getItem(user_key);
+
+        if (!stored_user) {
+            alert("user not found!");
+            return;
+        }
+
+        const user_data = JSON.parse(stored_user);
+
+        if (user_data.email !== email) {
+            alert("Incorrect email!");
+            return;
+        }
+
+        const secret_key = "thisisfarlesssecurethanarandomkeybutmorememorable";
+        const decrypted_password = CryptoJS.AES.decrypt(user_data.password, secret_key).toString(CryptoJS.enc.Utf8);
+
+        if (decrypted_password === password) {
+            alert("Login Successful for user: " + email.split('@')[0]);
+        } else {
+            alert("Incorrect Password!")
+        }
+
+    });
+});
 
 
 $(document).ready(function () {
