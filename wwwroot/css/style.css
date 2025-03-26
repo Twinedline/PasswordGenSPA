@@ -1,25 +1,76 @@
-﻿html, body {
+﻿body {
     height: 100%;
     margin: 0;
+    
 }
 
-.w3-row-padding img {
-    margin-bottom: 12px
+/*Dark mode*/
+#body {
+    background-color: black;
+}
+
+p, li, header, label {
+    color: white;
+}
+
+#mode-toggle {
+    background-color: white !important;
 }
 
 .w3-sidebar {
     width: 120px;
-    background: #222;
+    background: #262626;
 }
+
+.w3-bar-item:hover {
+    background-color: black !important; 
+}
+
+body .fa {
+    color: white;
+}
+
+
+/*light mode*/
+
+#body.lightmode{
+    background-color: #838383;
+}
+
+body.lightmode p, body.lightmode li, body.lightmode header, body.lightmode label {
+    color: black;
+}
+
+body.lightmode #mode-toggle {
+    background-color: black !important;
+    color: white;
+}
+
+body.lightmode .w3-sidebar {
+    width: 120px;
+    background: #404040;
+}
+
+body.lightmode .w3-sidebar i {
+    color: black;
+}
+
+body.lightmode .w3-bar-item:hover {
+    background-color: #838383 !important;
+}
+
+body.lightmode .fa {
+    color: black;
+}
+
+
 
 #main {
-    margin-left: 120px
+    margin-left: 120px;
 }
 
-@media only screen and (max-width: 600px) {
-    #main {
-        margin-left: 0
-    }
+.fa-home, .fa-user, .fa-eye, .fa-envelope {
+    color: white; /* Blue color */
 }
 
 .centered-container {
@@ -37,6 +88,7 @@
     flex-direction: row;
     width: 100%;
 }
+
 #password-strength-container {
     width: 100%;
     max-width: 600px;
@@ -61,8 +113,12 @@
     font-weight: bold;
 }
 
+#mode-toggle {
+    position: fixed; 
+    top: 43px; 
+    right: 80px; 
+    z-index: 1000; 
 
-h1 {
-    display: inline;
+    height: 60px;
+    width: 100px;
 }
-

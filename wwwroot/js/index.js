@@ -34,8 +34,6 @@ $(document).ready(function () {
 });
 
 
-
-
 $(document).ready(function () {
     $(document).on('submit', '#signup-form', function (event) {
         event.preventDefault();
@@ -185,6 +183,25 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    const toggleButton = document.getElementById('mode-toggle');
 
+    if (localStorage.getItem('mode') === "light") {
+        document.body.classList.add('lightmode');
+    } else {
+        document.body.classList.remove('lightmode');
+    }
+
+    toggleButton.addEventListener('click', () => {
+        
+        document.body.classList.toggle('lightmode');
+
+        if (document.body.classList.contains('lightmode')) {
+            localStorage.setItem('mode', 'light');
+        } else {
+            localStorage.setItem('mode', 'dark');
+        }
+    });
+});
 
     
