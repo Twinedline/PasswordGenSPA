@@ -1,4 +1,3 @@
-wwwroot\another-page.html
 wwwroot\balls.html
 wwwroot\css\style.css
 wwwroot\img\lock_logo.png
@@ -7,4 +6,5 @@ wwwroot\index-panel.html
 wwwroot\js\index.js
 wwwroot\login.html
 wwwroot\password-check.html
+wwwroot\password-generator.html
 wwwroot\signup.html

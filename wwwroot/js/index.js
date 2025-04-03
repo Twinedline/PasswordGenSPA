@@ -16,9 +16,9 @@ $(document).ready(function () {
         $('#page-content-wrapper').load('index-panel.html')
     });
 
-    $('#another-page-link').click(function () {
+    $('#password-gen-link').click(function () {
         var timestamp = new Date().getTime();
-        $('#page-content-wrapper').load('another-page.html')
+        $('#page-content-wrapper').load('password-generator.html')
     });
 
     $(document).on('click', '#login-link', function () {
@@ -205,3 +205,36 @@ $(document).ready(function () {
 });
 
     
+function generate_password() {
+
+    const length = document.getElementById('length').value;
+    const includeUppercase = document.getElementById('includeUppercase').checked;
+    const includeNumbers = document.getElementById('includeNumbers').checked;
+    const includeSpecial = document.getElementById('includeSpecial').checked;
+
+    const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
+    const uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const numbers = '0123456789';
+    const specialCharacters = '!@#$%&*';
+
+    let characters = lowercaseLetters;
+
+    if (includeUppercase) {
+        characters += uppercaseLetters;
+    }
+    if (includeNumbers) {
+        characters += numbers;
+    }
+    if (includeSpecial) {
+        characters += specialCharacters;
+    }
+
+    let password = '';
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        password += characters[randomIndex];
+    }
+
+    document.getElementById('generatedpassword').value = password;
+}
+
