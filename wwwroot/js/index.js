@@ -2,8 +2,8 @@
 
 $(document).ready(function () {
     $('#password-check-link').click(function () {
-        var timestamp = new Date().getTime(); // Get current timestamp
-        $('#page-content-wrapper').load('password-check.html?' + timestamp); // Add timestamp as a query string to bust cache
+        var timestamp = new Date().getTime(); 
+        $('#page-content-wrapper').load('password-check.html?' + timestamp); 
     });
 
     $('#balls-link').click(function () {
