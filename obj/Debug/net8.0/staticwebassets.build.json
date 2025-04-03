@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Twwt61MlmQlb0vVJKrK7JQzQwndeyzjmHektoyacTz8=",
+  "Hash": "S20y4ODlUlEIEbaQJPLedqUs857hZOGiYE9Btn0kZ0E=",
   "Source": "PasswordManager",
   "BasePath": "_content/PasswordManager",
   "Mode": "Default",
@@ -16,27 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\balls.html",
-      "SourceId": "PasswordManager",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\",
-      "BasePath": "_content/PasswordManager",
-      "RelativePath": "balls#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qatwej2gnd",
-      "Integrity": "rona0FXe3GqBWpRBRWRhPFJ8cMV/PpNbEpEqmQ0FjOo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\balls.html"
-    },
     {
       "Identity": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\css\\style.css",
       "SourceId": "PasswordManager",
@@ -228,88 +207,6 @@
     }
   ],
   "Endpoints": [
-    {
-      "Route": "balls.html",
-      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\balls.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rona0FXe3GqBWpRBRWRhPFJ8cMV/PpNbEpEqmQ0FjOo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 14:49:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rona0FXe3GqBWpRBRWRhPFJ8cMV/PpNbEpEqmQ0FjOo="
-        }
-      ]
-    },
-    {
-      "Route": "balls.qatwej2gnd.html",
-      "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\balls.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rona0FXe3GqBWpRBRWRhPFJ8cMV/PpNbEpEqmQ0FjOo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 14:49:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qatwej2gnd"
-        },
-        {
-          "Name": "label",
-          "Value": "balls.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rona0FXe3GqBWpRBRWRhPFJ8cMV/PpNbEpEqmQ0FjOo="
-        }
-      ]
-    },
     {
       "Route": "css/style.css",
       "AssetFile": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\css\\style.css",

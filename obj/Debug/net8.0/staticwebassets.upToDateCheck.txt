@@ -1,4 +1,3 @@
-wwwroot\balls.html
 wwwroot\css\style.css
 wwwroot\img\lock_logo.png
 wwwroot\index.html

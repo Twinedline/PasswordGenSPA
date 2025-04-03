@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\balls.html",
-      "PackagePath": "staticwebassets\\balls.html"
-    },
-    {
       "Id": "C:\\Users\\twine\\source\\repos\\PasswordManager\\PasswordManager\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
